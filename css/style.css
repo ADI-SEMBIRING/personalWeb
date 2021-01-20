@@ -1,0 +1,141 @@
+*{
+ margin:0;
+ padding:0;
+}
+nav {
+      display: flex;
+      background-color: rgb(139, 20, 133);
+       justify-content: space-around; 
+      padding: 20px 0 ;
+      color: white;
+      font-family:'Acme', sans-serif;
+   position:fixed;
+   width: 100%;
+
+   
+     
+}
+.name{
+      letter-spacing: 3px;
+}
+
+nav ul{
+      display: flex;
+      list-style: none;
+      width: 40%;
+     justify-content: space-between;
+}
+nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-family: 'Lobster', cursive;
+      
+}
+nav ul li a:hover{
+      color: black;
+}
+@media screen and (max-width: 768px){
+      nav ul{
+            width: 50%;
+      }
+}
+@media screen and (max-width: 576px){
+      nav ul{
+            width: none;
+      }
+}
+
+
+.content{
+      background-color: rgb(210, 132, 255);
+      width: auto;
+      height: 100vh;
+      color: black;
+      /* font-family: 'Lobster Two', cursive; */
+
+     
+     
+}
+.Hello{
+      padding-top: 100px;
+      padding-left: 100px;
+      font-family: 'Courgette', cursive;
+      color: black;
+      font-size: 100px;
+}
+.myName{
+      /* font-family: 'Caveat', cursive;  */
+      font-size: 50px;
+      padding-left: 200px;
+}
+#name{
+      font-size: 100px;
+      font-family: 'Kalam', cursive;
+}
+.socialMedia{
+      padding-left: 300px;
+      padding-top: 20px;
+      display:flex;
+     
+}
+.socialMedia ul  {
+      list-style:none;
+      width: 100px;
+      padding-left: 70px;
+      margin-top: 20px;
+   
+     
+     
+    
+      
+}
+.socialMedia ul li a{
+      text-decoration: none;
+      display:flex;
+      align-items: center;
+      margin-top: 10px;
+}
+.socialMedia ul li a #fb{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+.socialMedia ul li a #git{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+.socialMedia ul li a #link{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+.socialMedia ul li a #ig{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+
+
+.socialMedia ul li a:hover{
+      color: white;
+}
+
+.socialMedia .foto .fotoProfil{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin-left: 5px;
+}
+/*    footer*/
+.footer{
+      background-color: rgb(139, 20, 133);
+      height: 40px;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-top: 5px;
+}
